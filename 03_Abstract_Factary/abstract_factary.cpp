@@ -73,12 +73,12 @@ public:
 int main() {
     int n;
     std::string s;
-    std::cin >> n;
     std::unordered_map<std::string, std::shared_ptr<FurnitureAbstractFactory>> factories = {
         {"modern", std::make_shared<ModernFurnitureFactory>()},
         {"classical", std::make_shared<ClassicalFurnitureFactory>()}
     };
 
+    std::cin >> n;
     for (int i = 0; i < n; i++) {
         std::cin >> s;
         auto it = factories.find(s);
