@@ -1,10 +1,10 @@
-all: prototype easy_solution
+all: singleton easy_solution
 
-prototype: prototype.cpp
-	g++ -o prototype prototype.cpp
+singleton: singleton.cpp
+	g++ -o singleton singleton.cpp
 
 easy_solution: easy_solution.cpp
 	g++ -o easy_solution easy_solution.cpp
 
 clean:
-	rm -f prototype easy_solution
+	rm -f singleton easy_solution
