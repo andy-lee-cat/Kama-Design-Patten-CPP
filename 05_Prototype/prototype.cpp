@@ -4,19 +4,19 @@
 
 class Rectangle {
 private:
-    std::string __color;
-    int __width;
-    int __height;
+    std::string color;
+    int width;
+    int height;
 public:
     Rectangle(const std::string& color, int width, int height) 
-        : __color(color), __width(width), __height(height) {}
+        : color(color), width(width), height(height) {}
     std::unique_ptr<Rectangle> clone() const {
         return std::make_unique<Rectangle>(*this);
     }
     void info() const {
-        std::cout << "Color: " << __color;
-        std::cout << ", Width: " << __width;
-        std::cout << ", Height: " << __height << std::endl;
+        std::cout << "Color: " << color;
+        std::cout << ", Width: " << width;
+        std::cout << ", Height: " << height << std::endl;
     } 
 };
 
