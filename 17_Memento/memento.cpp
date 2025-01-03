@@ -13,9 +13,9 @@ enum class Operation {
 
 class Memento {
 public:
-    friend class CounterOriginator;
     Memento(int state) : state(state) {}
 private:
+    friend class CounterOriginator;
     int getState() const { return state; }
     int state;
 };
