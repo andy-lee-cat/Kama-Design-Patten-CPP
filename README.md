@@ -18,13 +18,12 @@ KamaCoder-DesignPatterns/
 │   │   ├── README.md
 │   │   ├── easy_solution.cpp
 │   │   └── factory_method.cpp
-│   │   └── Makefile        # 构建文件
+│   │   └── Makefile       # 后面发现大部分都是单cpp文件就没专门写Makefile了 
 │   │   ...
 │   └── 23_Visitor/       # 访问者模式练习
 │       ├── README.md
 │       ├── easy_solution.cpp
 │       └── visitor.cpp
-│       └── Makefile        # 构建文件
 │
 └── README.md            # 项目说明文件
 ```
