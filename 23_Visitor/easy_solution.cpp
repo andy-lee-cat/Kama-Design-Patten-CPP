@@ -1,5 +1,5 @@
-#include<iostream>
-#include<limits>
+#include <iostream>
+#include <limits>
 
 int main() {
     int n;

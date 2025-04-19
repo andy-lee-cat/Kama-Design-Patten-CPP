@@ -1,5 +1,5 @@
-#include<iostream>
-#include<unordered_map>
+#include <iostream>
+#include <unordered_map>
 
 int main() {
     int n;

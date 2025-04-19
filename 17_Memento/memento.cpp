@@ -1,8 +1,8 @@
 // memento
-#include<iostream>
-#include<unordered_map>
-#include<stack>
-#include<memory>
+#include <iostream>
+#include <unordered_map>
+#include <stack>
+#include <memory>
 
 enum class Operation {
     Inc,

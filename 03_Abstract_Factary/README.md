@@ -17,7 +17,7 @@
 
 - classical订单会输出下面两行字符串：
   - classical chair
-  - #classical sofa
+  - classical sofa
 
 ## 输入示例
 ```

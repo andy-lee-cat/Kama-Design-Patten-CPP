@@ -2,9 +2,9 @@
 // 这道题的输入数据不支持在一个部门下还设有子部门，
 // 所以main(client)的代码不涉及这部分，
 // 但是在几个class的设计中是支持的，如果在部门下插入新部门，show()可以正确递归调用
-#include<iostream>
-#include<vector>
-#include<memory>
+#include <iostream>
+#include <vector>
+#include <memory>
 
 class Component {
 public:

@@ -1,8 +1,8 @@
 // observer
-#include<iostream>
-#include<vector>
-#include<memory>
-#include<algorithm>
+#include <iostream>
+#include <vector>
+#include <memory>
+#include <algorithm>
 
 class Subject;
 

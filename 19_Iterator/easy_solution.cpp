@@ -1,6 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<tuple>
+#include <iostream>
+#include <vector>
+#include <tuple>
 
 int main() {
     int n;

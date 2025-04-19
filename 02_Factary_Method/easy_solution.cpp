@@ -1,5 +1,5 @@
-#include<iostream>
-#include<unordered_set>
+#include <iostream>
+#include <unordered_set>
 
 int main() {
     int n;

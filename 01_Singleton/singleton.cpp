@@ -1,9 +1,9 @@
 // Singleton
-#include<iostream>
-#include<vector>
-#include<memory>
-#include<tuple>
-#include<mutex>
+#include <iostream>
+#include <vector>
+#include <memory>
+#include <tuple>
+#include <mutex>
 
 class ShoppingCart {
 public:

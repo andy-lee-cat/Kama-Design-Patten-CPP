@@ -1,8 +1,8 @@
 // command
-#include<iostream>
-#include<memory>
-#include<queue>
-#include<unordered_map>
+#include <iostream>
+#include <memory>
+#include <queue>
+#include <unordered_map>
 
 class Command {
 public:
