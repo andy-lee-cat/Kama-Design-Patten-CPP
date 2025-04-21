@@ -1,1 +1,8 @@
 test.cpp
+*.out
+*.exe
+.DS_Store
+*.o
+*.a
+*.so
+*.dSYM
